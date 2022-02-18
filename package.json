@@ -1,0 +1,21 @@
+{
+  "name": "poc-nodejs-undici-1174",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is2ei/POC-nodejs-undici-1174.git"
+  },
+  "bugs": {
+    "url": "https://github.com/is2ei/POC-nodejs-undici-1174/issues"
+  },
+  "homepage": "https://github.com/is2ei/POC-nodejs-undici-1174#readme",
+  "dependencies": {
+    "undici": "^4.14.1"
+  }
+}
