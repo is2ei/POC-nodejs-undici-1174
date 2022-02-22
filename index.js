@@ -3,10 +3,9 @@ import { Client } from 'undici'
 import { once } from 'events'
 
 const server = createServer((request, response) => {
-  let body
   request.on('data', (data) => {
     console.log(`Request Data: ${data.toString('utf8')}`)
-    body = JSON.parse(data)
+    const body = JSON.parse(data)
     body.message = 'World'
     response.end(JSON.stringify(body))
   })
